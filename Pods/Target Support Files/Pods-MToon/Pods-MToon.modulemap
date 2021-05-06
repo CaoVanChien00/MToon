@@ -1,0 +1,6 @@
+framework module Pods_MToon {
+  umbrella header "Pods-MToon-umbrella.h"
+
+  export *
+  module * { export * }
+}
