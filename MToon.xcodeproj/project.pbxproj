@@ -3,16 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A2E7AC72644076E00B5A81C /* AddCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2E7AC62644076E00B5A81C /* AddCategoryViewController.swift */; };
+		9A4CF9432643D00800CEBA9F /* DBCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4CF9422643D00800CEBA9F /* DBCategory.swift */; };
+		9A4CF9452643D96F00CEBA9F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4CF9442643D96F00CEBA9F /* Category.swift */; };
 		9A56E65A264392D200076550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A56E659264392D200076550 /* AppDelegate.swift */; };
 		9A56E65C264392D200076550 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A56E65B264392D200076550 /* ViewController.swift */; };
 		9A56E65F264392D200076550 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A56E65D264392D200076550 /* Main.storyboard */; };
 		9A56E661264392D300076550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A56E660264392D300076550 /* Assets.xcassets */; };
 		9A56E664264392D300076550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A56E662264392D300076550 /* LaunchScreen.storyboard */; };
 		9A56E66F264392D300076550 /* MToonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A56E66E264392D300076550 /* MToonTests.swift */; };
+		9AD8ED312644C44E0078EB01 /* CustomTextview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8ED302644C44E0078EB01 /* CustomTextview.swift */; };
+		9AD8ED332644CBAB0078EB01 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8ED322644CBAB0078EB01 /* CustomButton.swift */; };
+		9AD8ED372644EBCA0078EB01 /* EditCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8ED362644EBCA0078EB01 /* EditCategoryViewController.swift */; };
+		9AD8ED392644F1900078EB01 /* CustomStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8ED382644F1900078EB01 /* CustomStackView.swift */; };
+		9AD8ED3B2644FA780078EB01 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD8ED3A2644FA780078EB01 /* CustomTextField.swift */; };
+		9AE5EEFB264519480019154E /* CustomTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE5EEFA264519480019154E /* CustomTableView.swift */; };
+		9AE5EEFD264521D00019154E /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE5EEFC264521D00019154E /* CategoryTableViewCell.swift */; };
+		9AE5EEFF264525230019154E /* ListCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE5EEFE264525230019154E /* ListCategoryViewController.swift */; };
 		B71613976AAB17BD5F2B2803 /* Pods_MToonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75884A198CFE19DB4C7D05F9 /* Pods_MToonTests.framework */; };
 		C44894F360230F8B93F5804D /* Pods_MToon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C163350BFC8AD67A3D6BC97F /* Pods_MToon.framework */; };
 /* End PBXBuildFile section */
@@ -31,6 +42,9 @@
 		2C9760C74F66589B69FACDCA /* Pods-MToon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MToon.debug.xcconfig"; path = "Target Support Files/Pods-MToon/Pods-MToon.debug.xcconfig"; sourceTree = "<group>"; };
 		6C3039231D2600B81B4A40F1 /* Pods-MToonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MToonTests.debug.xcconfig"; path = "Target Support Files/Pods-MToonTests/Pods-MToonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		75884A198CFE19DB4C7D05F9 /* Pods_MToonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MToonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A2E7AC62644076E00B5A81C /* AddCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryViewController.swift; sourceTree = "<group>"; };
+		9A4CF9422643D00800CEBA9F /* DBCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBCategory.swift; sourceTree = "<group>"; };
+		9A4CF9442643D96F00CEBA9F /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		9A56E656264392D200076550 /* MToon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MToon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A56E659264392D200076550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A56E65B264392D200076550 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +55,14 @@
 		9A56E66A264392D300076550 /* MToonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MToonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A56E66E264392D300076550 /* MToonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MToonTests.swift; sourceTree = "<group>"; };
 		9A56E670264392D300076550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AD8ED302644C44E0078EB01 /* CustomTextview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextview.swift; sourceTree = "<group>"; };
+		9AD8ED322644CBAB0078EB01 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		9AD8ED362644EBCA0078EB01 /* EditCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCategoryViewController.swift; sourceTree = "<group>"; };
+		9AD8ED382644F1900078EB01 /* CustomStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStackView.swift; sourceTree = "<group>"; };
+		9AD8ED3A2644FA780078EB01 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		9AE5EEFA264519480019154E /* CustomTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableView.swift; sourceTree = "<group>"; };
+		9AE5EEFC264521D00019154E /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		9AE5EEFE264525230019154E /* ListCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCategoryViewController.swift; sourceTree = "<group>"; };
 		A998B887209BC5BDAFBC1241 /* Pods-MToonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MToonTests.release.xcconfig"; path = "Target Support Files/Pods-MToonTests/Pods-MToonTests.release.xcconfig"; sourceTree = "<group>"; };
 		C163350BFC8AD67A3D6BC97F /* Pods_MToon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MToon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4794ACE994D2812525696F6 /* Pods-MToon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MToon.release.xcconfig"; path = "Target Support Files/Pods-MToon/Pods-MToon.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,8 +96,18 @@
 				6C3039231D2600B81B4A40F1 /* Pods-MToonTests.debug.xcconfig */,
 				A998B887209BC5BDAFBC1241 /* Pods-MToonTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		9A2E7AC32644070E00B5A81C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9A2E7AC62644076E00B5A81C /* AddCategoryViewController.swift */,
+				9AD8ED362644EBCA0078EB01 /* EditCategoryViewController.swift */,
+				9AE5EEFC264521D00019154E /* CategoryTableViewCell.swift */,
+				9AE5EEFE264525230019154E /* ListCategoryViewController.swift */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		9A56E64D264392D200076550 = {
@@ -102,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				9A56E65D264392D200076550 /* Main.storyboard */,
+				9A657A1726441BE600BFAAE9 /* Custom Views */,
 				9A56E67A264392F300076550 /* View Controllers */,
 				9A56E67D2643932F00076550 /* Models */,
 				9A56E67C2643931600076550 /* Databases */,
@@ -133,6 +166,7 @@
 		9A56E67A264392F300076550 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9A2E7AC32644070E00B5A81C /* Category */,
 				9A56E65B264392D200076550 /* ViewController.swift */,
 			);
 			path = "View Controllers";
@@ -141,6 +175,7 @@
 		9A56E67C2643931600076550 /* Databases */ = {
 			isa = PBXGroup;
 			children = (
+				9A4CF9422643D00800CEBA9F /* DBCategory.swift */,
 			);
 			path = Databases;
 			sourceTree = "<group>";
@@ -148,8 +183,21 @@
 		9A56E67D2643932F00076550 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				9A4CF9442643D96F00CEBA9F /* Category.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		9A657A1726441BE600BFAAE9 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				9AD8ED302644C44E0078EB01 /* CustomTextview.swift */,
+				9AD8ED322644CBAB0078EB01 /* CustomButton.swift */,
+				9AD8ED382644F1900078EB01 /* CustomStackView.swift */,
+				9AD8ED3A2644FA780078EB01 /* CustomTextField.swift */,
+				9AE5EEFA264519480019154E /* CustomTableView.swift */,
+			);
+			path = "Custom Views";
 			sourceTree = "<group>";
 		};
 		D9765C1D8B419CF857746BA4 /* Frameworks */ = {
@@ -329,8 +377,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AD8ED312644C44E0078EB01 /* CustomTextview.swift in Sources */,
 				9A56E65C264392D200076550 /* ViewController.swift in Sources */,
+				9A2E7AC72644076E00B5A81C /* AddCategoryViewController.swift in Sources */,
+				9A4CF9432643D00800CEBA9F /* DBCategory.swift in Sources */,
+				9AD8ED3B2644FA780078EB01 /* CustomTextField.swift in Sources */,
+				9AD8ED372644EBCA0078EB01 /* EditCategoryViewController.swift in Sources */,
+				9AD8ED332644CBAB0078EB01 /* CustomButton.swift in Sources */,
+				9AD8ED392644F1900078EB01 /* CustomStackView.swift in Sources */,
+				9AE5EEFB264519480019154E /* CustomTableView.swift in Sources */,
 				9A56E65A264392D200076550 /* AppDelegate.swift in Sources */,
+				9A4CF9452643D96F00CEBA9F /* Category.swift in Sources */,
+				9AE5EEFF264525230019154E /* ListCategoryViewController.swift in Sources */,
+				9AE5EEFD264521D00019154E /* CategoryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,7 +553,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MToon/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MToon/System Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -512,7 +571,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = MToon/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MToon/System Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
