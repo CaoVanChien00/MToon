@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Config app
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    //App
+    <string name="app_name" translatable="false">ShareX</string>
+    <string name="admob_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="version_number" translatable="false">1.0.1</string>
+    <string name="company" translatable="false">Himintech</string>
+    <string name="url_policy" translatable="false">https://himintech.com/sharex/policy</string>
+
+    //Title
+    <string name="unknown">Unknown</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="error">Error</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="delete">Delete</string>
+    <string name="send">Send</string>
+    <string name="preview">Preview</string>
+    <string name="receiver">Receiver</string>
+    <string name="no_data">No Data</string>
+    <string name="next">Next</string>
+
+    //Tabbar
+    <string name="photo">Photo</string>
+    <string name="video">Video</string>
+    <string name="music">Music</string>
+    <string name="contact">Contact</string>
+    <string name="file">File</string>
+    <string name="image">Image</string>
+
+    //menu
+    <string name="account">Account</string>
+    <string name="rating_us">Rating us</string>
+    <string name="about">About</string>
+    <string name="help_feedback">Help &amp; Feedback</string>
+    <string name="how_to_use">How to use</string>
+    <string name="history">History</string>
+
+    //menu_account
+    <string name="name">Name</string>
+
+    //menu_rating_us
+    <string name="rating_app">Rating App</string>
+    <string name="later">Later</string>
+    <string name="now">Now</string>
+
+
+    //menu_rating_us_comment
+    <string name="review_name_1">Fiona</string>
+    <string name="review_content_1">I used ShareX to convert about 100G of data.</string>
+    <string name="review_name_2">Kelsey</string>
+    <string name="review_content_2">ShareX helps me transfer without internet or cable.</string>
+    <string name="review_name_3">Stella</string>
+    <string name="review_content_3">It took me a few seconds to share the data.</string>
+    <string name="review_name_4">Aubrey</string>
+    <string name="review_content_4">It’s awesome because I can send videos from my iPhone to my Android phone with no problems.</string>
+    <string name="review_name_5">Emery</string>
+    <string name="review_content_5">Easy to use interface, fast file transfer speed.</string>
+    <string name="review_name_6">Kane</string>
+    <string name="review_content_6">Fast, same quality as the original video.</string>
+    <string name="review_name_7">Patrick</string>
+    <string name="review_content_7">Amazing app! This app is amazing and is easy to navigate. I was able to transfer music and video files from my old phone to the new one. Very quick transfer process. Highly recommend it!</string>
+    <string name="review_name_8">Aidan</string>
+    <string name="review_content_8">I loved the app and I use it with friends every time to share things between us.</string>
+    <string name="review_name_9">Jesse</string>
+    <string name="review_content_9">I love this app! I’ve tried many different ways to move pictures to and from my iPhone with horrible results until I found ShareX.</string>
+    <string name="review_name_10">Diego</string>
+    <string name="review_content_10">Easy as 1-2-3. It’s awesome !! Great and easy to transfer !! No waiting with this app !! It does so much in so little time.</string>
+
+    //Menu_about
+    <string name="version">Version</string>
+    <string name="design_by">Design by</string>
+    <string name="private_policy">Private &amp; policy</string>
+    <string name="copyright">\u00a9 2021 Copyright</string>
+
+    //Menu_help_feedback
+    <string name="connection_problem">Connection Problem</string>
+    <string name="transfer_problem">Transfer Problem</string>
+    <string name="storage_problem">Storage Problem</string>
+    <string name="feedback">Feedback</string>
+
+    //Connection_problem_question_answer
+    <string name="question_connection_1">Why does ShareX need both a Wi-Fi hotspot &amp; Bluetooth?</string>
+    <string name="answer_connection_1">1. ShareX uses a Wi-Fi hotspot and Bluetooth to send and receive files. After a transfer is complete, the Wi-Fi hotspot is turned off automatically. Make sure your device supports the "Portable hotspot" functionality before you start transferring files. \n2. Keeping Bluetooth on doesn’t affect battery usage.\nShareX needs Bluetooth to find nearby devices faster.</string>
+    <string name="question_connection_2">What do I do if I can’t find the sender/receiver or can’t connect?</string>
+    <string name="answer_connection_2">Here are a few things to check:\n1. Make sure both devices allow ShareX to access their location.\n2. Make sure both devices support ‘Portable hotspot’ functionality.\n3. Make sure that Wi-Fi hotspots on both devices have been turned on successfully. If not, see ‘My Wi-Fi hotspot won’t turn on. What should I do?’\nAfter this, relaunch ShareX and try to connect again.\nHere’s what else you can try if you still can’t connect:\n1. Bring the two devices closed to each other. Maybe they are too far apart.\n2. Move to a different physical location.\n3. Try switching roles with your counterpart and send a file instead of receiving, and see if you can connect then.</string>
+    <string name="question_connection_3">My Wi-Fi hotspot won’t turn on. What should I do?</string>
+    <string name="answer_connection_3">1. Make sure both devices support ‘Portable hotspot’ functionality. You can find this item in the Settings.\n2. Compatibility issues with some devices exist which make the process of turning the Wi-Fi hotspot on longer. Try relaunching ShareX.\n3. Try switching roles with your counterpart and send a file instead of receiving, and see if you can connect then.</string>
+    <string name="question_connection_4">I’m a sender and I can’t connect to the receiver’s device after tapping the profile photo. What should I do?</string>
+    <string name="answer_connection_4">This usually happens because of unstable networks or compatibility issues. Try these:\n1. Exit ShareX on both devices, launch again, then try to connect.\n2. If this doesn’t help, contact us at himintech.marketing@gmail.com and describe your issue.</string>
+    <string name="question_connection_5">Why does ShareX turn on Bluetooth automatically during transfers?</string>
+    <string name="answer_connection_5">ShareX needs Bluetooth to find nearby devices faster. ShareX turns off Bluetooth automatically after a transfer is complete.</string>
+
+    //menu_transfer_problem_question_answer
+    <string name="question_transfer_1">Why is the transfer speed too low?</string>
+    <string name="answer_transfer_1">1. Make sure the two devices are close to each other.\n2. The two devices are closer, the faster the speed gets.\n3. Keep the network environment clean. Having many devices emitting Wi-Fi signals nearby can interfere with the transfer.\n4. Clear up the device’s system. Having many apps connecting to Wi-Fi at the same time may also result in slow file transfer.</string>
+    <string name="question_transfer_2">Cannot save received files?</string>
+    <string name="answer_transfer_2">Please reboot your phone and try again.</string>
+    <string name="question_transfer_3">Cannot find files you want to transfer?</string>
+    <string name="answer_transfer_3">Photos just saved may not be found immediately in ShareX. Please wait for a while or reboot your phone, then try again.</string>
+    <string name="question_transfer_4">Did the transfer interrupt or fail?</string>
+    <string name="answer_transfer_4">The distance will affect the transmission, we recommend you put both devices closer to prevent transfer interruption. Wi-Fi or hotspot is not stable, please reboot your phone and try again.</string>
+    <string name="question_transfer_5">How to transfer files between android devices and IOS devices?</string>
+    <string name="answer_transfer_5">1. For android, click “Send” on ShareX and then wait until the QR code appears. \n 2. For IOS, click Scan on ShareX, and then scan the QR on the Android device.</string>
+
+    //menu_storage_problem_question_answer
+    <string name="question_storage_1">Where are the files I receive stored?</string>
+    <string name="answer_storage_1">ShareX saves received files to the ShareX folder by default. If you still can’t find the files you received, see the next answer.</string>
+    <string name="question_storage_2">I can’t find the files I received. What should I do?</string>
+    <string name="answer_storage_2">You can view all received files after you tap “ShareX” on ShareX’s start page. You can also view received files in the corresponding system app.\nCan’t find the files you just received may appear in ShareX with a delay. Wait a minute or two, reboot your phone, and take another look.</string>
+
+    //menu_how_to_ues
+    <string name="android_android">Android - Android</string>
+    <string name="android_ios">Android - IOS</string>
+    <string name="android_tip_1">Tip 1</string>
+    <string name="android_tip_2">Tip 2</string>
+
+    //menu_how_to_use_tutorial
+    <string name="android_android_tip_1_step_1">For the Sender, chooses the "Send" button.</string>
+    <string name="android_android_tip_1_step_2">For the Receiver chooses the "Receiver" button.</string>
+    <string name="android_android_tip_1_step_3">Click the avatar on the scanning screen.</string>
+    <string name="android_android_tip_1_step_4">Waiting for connecting between devices.</string>
+    <string name="android_android_tip_2_step_1">For the Sender, chooses the "Send" button and then waiting until the QR code appears.</string>
+    <string name="android_android_tip_2_step_2">For the Receiver, click "Receiver" then chooses "Scan" and scan the QR code on the Sender`s phone.</string>
+    <string name="android_ios_step_1">For Android click "Send" on ShareX and then waiting until the QR code appears.</string>
+    <string name="android_ios_step_2">For IOS, click "Scan" on ShareX, and then scan the QR code on the Android device</string>
+
+    //Menu_history_filter
+    <string name="sort_by">Sort By</string>
+    <string name="role">Role</string>
+    <string name="none">None</string>
+    <string name="date_60">Date (60)</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="temp_date">DEC 12, 2021</string>
+
+    //Chat
+    <string name="message">Message...</string>
+    <string name="connect">Connect</string>
+
+    //Discover
+    <string name="connect_fail">Fail connection</string>
+    <string name="time_out">Connected time out</string>
+    <string name="connecting">Connecting....</string>
+    <string name="receive">Receive</string>
+    <string name="receive_forms">Receive form</string>
+    <string name="send_forms">Send form</string>
+    <string name="find_device_connect_to_ios">Connect to IOS</string>
+    <string name="waiting">Waiting...</string>
+    <string name="fail_Connected">Failed connected !</string>
+    <string name="scan_sender">Scanning Sender</string>
+    <string name="connect_ios">Connect IOS</string>
+    <string name="enter_sys_setting_join_network">Enter System Setting and join the network</string>
+    <string name="ok_i_got_it">Ok, I got it!</string>
+    <string name="can_not_get_hotspot_info">can not get hotspot information from sender</string>
+    <string name="turn_off_flight_mode_message">Your device is in Flight mode, do you want to turn off it?</string>
+    <string name="not_start_discover">Not start discover, please reopen receiver.</string>
+    <string name="do_you_want_connected">do you want to connect this device</string>
+    <string name="title">Title</string>
+    <string name="hotspot_running">Hotspot running</string>
+    <string name="stop">STOP</string>
+
+    //Profile
+    <string name="desc_profile_icon">Profile Icon</string>
+    <string name="input_name_hint">Please input your name</string>
+    <string name="profile_updated">Profile updated</string>
+    <string name="name_cannot_empty">Name cannot be empty</string>
+    <string name="select_your_picture">Please select your profile picture</string>
+    <string name="name_canot_more_8_characters">Name cannot be more than 8 characters</string>
+
+    //summary
+    <string name="sent">Sent</string>
+    <string name="received">Received</string>
+
+    //History_detail_dialog
+    <string name="path">Path</string>
+    <string name="size">Size</string>
+    <string name="md5">Md5</string>
+    <string name="sender">Sender</string>
+    <string name="you">You</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="type">Type</string>
+    <string name="properties">Properties</string>
+
+    //Home Activity
+    <string name="home_history">History</string>
+    <string name="home_download">Download</string>
+    <string name="home_app">App</string>
+    <string name="home_photo">Photo</string>
+    <string name="home_music">Music</string>
+    <string name="home_video">Video</string>
+    <string name="home_contact">Contact</string>
+    <string name="home_file">File</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="warning_clear_file_selected">The all files selected should be cleared</string>
+    <string name="scan_qr_code_fail">Invalid QR code</string>
+
+    //Mobile_navigation
+    <string name="dashboard">Dashboard</string>
+    <string name="gallery">Gallery</string>
+    <string name="slideshow">Slideshow</string>
+    <string name="tools">Tools</string>
+    <string name="share">Share</string>
+
+    //Fragment
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+
+    //Transfer
+    <string name="search">Search</string>
+    <string name="text_ack_msg">read</string>
+    <string name="text_delivered_msg">delivered</string>
+    <string name="cd_arrow_icon">Arrow icon</string>
+    <string name="scan_qr_code">SCAN QR CODE</string>
+
+    //Toast_dialog_data
+    <string name="no_found_file">No application found which can open the file</string>
+    <string name="no_support">This file is not supported yet</string>
+    <string name="not_open_file">No open this file</string>
+
+    //Not_known_location
+    <string name="send_flow_picture">Send the following picture ?</string>
+    <string name="file_delete">This file has been deleted in phone storage</string>
+    <string name="clear_file">Clear File</string>
+    <string name="connect_failuer_toast">please check the network or try again later</string>
+    <string name="location_recv">[%1$s location]</string>
+    <string name="location_prefix">[my location]</string>
+    <string name="_voice">[voice]</string>
+    <string name="_picture">[picture]</string>
+    <string name="_video">[video]</string>
+    <string name="_file">[file]</string>
+    <string name="_voice_call">[voice call]</string>
+    <string name="file_n"> file - </string>
+    <string name="files_n"> file(s) - </string>
+    <string name="connected">Connected</string>
+    <string name="toast_show_connected_ble">Please do not turn off bluetooth</string>
+    <string name="connect_to_sender">Connection successful</string>
+    <string name="new_device_connect">New Device connect</string>
+    <string name="do_you_want_to_connect_to">Do you want to connect to </string>
+    <string name="wait_create_network">Wait for creating network</string>
+    <string name="wait_for_receiver">Wait for Receiver</string>
+    <string name="selected">Selected</string>
+    <string name="confirm_clear_file">Remove all selected file ?</string>
+    <string name="question">Question</string>
+    <string name="answer">Answer</string>
+    <string name="not_find_email">Not find app mail on phone</string>
+    <string name="select_download_file_path">Select Downloads FilePath</string>
+    <string name="fetching_detail">Fetching details.. Please wait..</string>
+    <string name="downloading">Downloading...</string>
+    <string name="no_file_has_been_share_you">No file has been shared with you</string>
+    <string name="filepath_donwload_success">FilePath download success</string>
+    <string name="filepath_donwload_fail">FilePath download failed</string>
+    <string name="is_not_share_with_you"> is not shared with you anymore</string>
+    <string name="is_not_available"> is not available</string>
+    <string name="create_success_hotspot">Create success\nHotspot name: </string>
+    <string name="password">\nPassword: </string>
+    <string name="sending">sending</string>
+    <string name="receiving">Receiving %.02f</string>
+    <string name="connect_success">"Connection Succeeded"</string>
+    <string name="file_share_success">Files shared successfully</string>
+    <string name="no_file_has_been_selected">No file has been selected</string>
+    <string name="no_device_is_availabe_to_share">No device is available to share file</string>
+    <string name="loading">loading</string>
+    <string name="today">Today</string>
+    <string name="this_is_send_fragment">This is send fragment</string>
+    <string name="summary">Summary</string>
+    <string name="please_provide_location_permision">Please provide Location permission so that you can ...</string>
+
+    //Contact
+    <string name="fail_contact_save">Fail save contact!</string>
+    <string name="success_contact_save">Success save contact!</string>
+    <string name="contact_delete">This contact has been deleted in phone</string>
+    <string name="all">All</string>
+    <string name="contact_save">Save contact</string>
+    <string name="message_contact_save">Do you want save this contact ?</string>
+    <string name="info">Info</string>
+    <string name="warning">Warning</string>
+    <string name="dialog_access_contact">Access to the contact has been prohibited, please click allow or ok on last dialog</string>
+    <string name="contacts"> contact(s)</string>
+
+
+    //Request_permission
+    <string name="access_to_the_storage">Access to the storage has been prohibited, please enable it in the Settings app to continue</string>
+    <string name="access_to_the_photo">Access to the photo has been prohibited, please enable it in the Settings app to continue</string>
+    <string name="access_to_the_music">Access to the music has been prohibited, please enable it in the Settings app to continue</string>
+    <string name="access_to_the_video">Access to the video has been prohibited, please enable it in the Settings app to continue</string>
+    <string name="access_to_the_location">Access to the location has been prohibited, please enable it in the Settings app to continue</string>
+    <string name="access_to_contact">Access to the contact has been prohibited, please enable it in the Settings app to continue</string>
+
+    //Open_rating
+    <string name="not_open_rating_app">Google Play or Browser not found.</string>
+
+    //Message_adapter
+    <string name="connect_fail_toast">please check the network or try again later</string>
+    <string name="send_fail">send failed</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="is_connected">connected</string>
+    <string name="is_disconnected">disconnected</string>
+
+    //Chat_activity
+    <string name="confirm_disconnect_message">Do you want to disconnect?</string>
+    <string name="wifi_was_turn_off">The wifi was turned off.</string>
+    <string name="partner_disconnect_message">%s disconnected</string>
+    <string name="do_you_want_disconnected">do you want to disconnect this user</string>
+    <string name="keep_connected">Keep Connecting</string>
+
+    //Storage
+    <string name="dialog_title_storage_data">Warning</string>
+    <string name="dialog_msg_storage_not_free">You don\'t have enough space to save the file</string>
+    <string name="dialog_msg_storage_warning">Running out of storage</string>
+
+    //Delete_file
+    <string name="title_dialog_delete_file">Warning</string>
+    <string name="message_dialog_delete_file">Do you want delete file ?</string>
+    <string name="toast_msg_delete_file_success">Delete file success</string>
+    <string name="toast_msg_delete_file_fail">Delete file fail</string>
+    <string name="toast_msg_not_delete_file_when_connect">Not delete file when connecting</string>
+    <string name="msg_not_permission_delete_file">Not permission delete file</string>
+
+
+    //splash_screen
+    <string name="splash_screen_show_permission_require">"Please agree to the following permissions for the app to work at its best"</string>
+
+    //Main_activity
+    <string name="please_provide_camera_location_permision_new">Access to the camera, location has been prohibited, please enable it in the Settings app to continue</string>
+    <string name="please_provide_camera_permision_new">Access to the camera has been prohibited, please enable it in the Settings app to continue</string>
+    <string name="rationale">Please provide camera permission so that you can ...</string>
+
+</resources>
